@@ -20,8 +20,6 @@ App.use(Swaggerize({
     handlers: Path.resolve('./handlers')
 }));
 
-console.log('Hello I am running soon...');
-
 Server.listen(8000, function () {
     App.swagger.api.host = this.address().address + ':' + this.address().port;
     /* eslint-disable no-console */

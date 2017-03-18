@@ -18,6 +18,9 @@ module.exports = {
              * Using mock data generator module.
              * Replace this by actual data for the api.
              */
+            //TODO: távolítsd el!!
+            console.log('GET-data-pets request received');
+
             Mockgen().responses({
                 path: '/pets',
                 operation: 'get',
@@ -50,6 +53,10 @@ module.exports = {
              * Using mock data generator module.
              * Replace this by actual data for the api.
              */
+
+            //TODO: távolítsd el!!
+            console.log('POST-data-pets request received');
+
             Mockgen().responses({
                 path: '/pets',
                 operation: 'post',
@@ -61,6 +68,10 @@ module.exports = {
              * Using mock data generator module.
              * Replace this by actual data for the api.
              */
+
+            //TODO: távolítsd el!!
+            console.log('UNKNOWN request received');
+
             Mockgen().responses({
                 path: '/pets',
                 operation: 'post',

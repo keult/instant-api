@@ -16,6 +16,10 @@ module.exports = {
          * Get the data for response 200
          * For response `default` status 200 is used.
          */
+
+        //TODO: távolítsd el!!
+        console.log('GET-findPets request received');
+
         var status = 200;
         var provider = dataProvider['get']['200'];
         provider(req, res, function (err, data) {
@@ -38,6 +42,10 @@ module.exports = {
          * Get the data for response 200
          * For response `default` status 200 is used.
          */
+
+        //TODO: távolítsd el!!
+        console.log('POST-addPet request received');
+
         var status = 200;
         var provider = dataProvider['post']['200'];
         provider(req, res, function (err, data) {
