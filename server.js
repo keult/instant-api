@@ -23,6 +23,6 @@ App.use(Swaggerize({
 Server.listen(8000, function () {
     App.swagger.api.host = this.address().address + ':' + this.address().port;
     /* eslint-disable no-console */
-    console.log('App running on %s:%d', this.address().address, this.address().port);
+    console.log('Instant-api szerver elindult %s:%d', this.address().address, this.address().port);
     /* eslint-disable no-console */
 });
